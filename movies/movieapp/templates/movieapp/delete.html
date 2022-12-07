@@ -1,0 +1,10 @@
+{% extends 'movieapp/base.html' %} {% block content %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <h3>Are You want to delete the Movie </h3>
+    <input type="submit">
+
+</form>
+
+{% endblock  %}
